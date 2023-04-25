@@ -1,7 +1,22 @@
 .App {
   text-align: center;
 }
+.center{
+     display: flex;
+     align-items: center;
+     margin: 0 auto;
+     color:blue
+}
 
+.all{
+  position: absolute;
+  display:flex;
+  top:28%;
+  left:28%;
+  background-color: aquamarine;
+  width: 600px;
+  height: 300px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
